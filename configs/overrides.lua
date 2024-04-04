@@ -14,6 +14,7 @@ M.treesitter = {
     "markdown_inline",
     "python",
     "go",
+    "rust",
   },
   indent = {
     enable = true,
@@ -45,6 +46,9 @@ M.mason = {
 
     -- go
     "gopls",
+
+    -- rust
+    "rust-analyzer",
   },
 }
 
