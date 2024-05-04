@@ -42,6 +42,7 @@ M.mason = {
     "clang-format",
 
     -- python
+    "ruff-lsp",
     "pyright",
 
     -- go
@@ -65,6 +66,17 @@ M.nvimtree = {
         git = true,
       },
     },
+  },
+}
+
+M.cmp = {
+  sources = {
+    { name = "copilot" },
+    { name = "nvim_lsp" },
+    { name = "luasnip" },
+    { name = "buffer" },
+    { name = "nvim_lua" },
+    { name = "path" },
   },
 }
 
